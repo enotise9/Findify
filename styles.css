@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #696969;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 250px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px; /* Увеличен размер шрифта */
+    margin-right: 10px;
+    border-radius: 10px; /* Добавлено */
+    border: 1px solid #ccc; /* Добавлена рамка */
+    transition: border 0.3s; /* Плавный переход для рамки */
+}
+
+input[type="text"]:focus {
+    outline: none; /* Убрана стандартная обводка */
+    border-color: #00BFFF; /* Цвет рамки при фокусе */
+}
+
+select {
+    padding: 10px;
+    font-size: 16px; /* Увеличен размер шрифта */
+    border-radius: 10px; /* Добавлено */
+    border: 1px solid #ccc; /* Добавлена рамка */
+    background-color: white; /* Цвет фона */
+    transition: border 0.3s; /* Плавный переход для рамки */
+}
+
+select:hover {
+    border-color: #00BFFF; /* Цвет рамки при наведении */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Добавлено */
+    transition: background-color 0.3s; /* Плавный переход для кнопки */
+}
+
+button:hover {
+    background-color: #005f7f; /* Темнее при наведении */
+}
+
+/* Стили для кнопки изменения цвета */
+.toggle-color {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    border: none; /* Убрана стандартная обводка */
+    padding: 5px 10px; /* Добавлены отступы */
+    border-radius: 5px; /* Закругление углов */
+}
+
+/* Стили для фавикона */
+.favicon {
+    width: 32px; /* Ширина изображения */
+    height: 48px; /* Высота изображения */
+    margin-right: 10px; /* Отступ слева от картинки */
+}
